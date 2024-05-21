@@ -3,7 +3,7 @@ const router = express.Router();
 const { isAuthenticatedUser } = require("../middleware/auths");
 const Book = require('../models/book');
 const getBook = require("../middleware/getBook");
-const ApiFeatures = require('../utils/apiFeatures');
+const ApiFeatures = require('../utils/apifeatures');
 
 // GET /books - Retrieve all books with search and pagination
 router.get('/', async (req, res) => {
