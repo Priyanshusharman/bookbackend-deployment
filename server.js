@@ -11,7 +11,7 @@ dotenv.config({path:"./config/config.env"});
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://664cfbd0a4e4b31f5119d721--lighthearted-sunshine-a80a3f.netlify.app/',
   credentials: true
 }));
 
