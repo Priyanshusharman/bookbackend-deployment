@@ -17,8 +17,8 @@ app.use(cors({
 
 app.use(express.json());
 
-const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/bookdb';
+const PORT = process.env.PORT || 8000;
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://aidpriyanshu:x3bpFtyYHu9EC5Dk@cluster0.oi8zbmg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
