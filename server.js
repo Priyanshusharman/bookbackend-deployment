@@ -8,10 +8,10 @@ const userRouter= require('./routers/userController')
 const cookieParser = require('cookie-parser');
 dotenv.config({path:"./config/config.env"});
 
-
+// 'https://664cfbd0a4e4b31f5119d721--lighthearted-sunshine-a80a3f.netlify.app/'
 const app = express();
 app.use(cors({
-  origin: 'https://664cfbd0a4e4b31f5119d721--lighthearted-sunshine-a80a3f.netlify.app/',
+  origin: true,
   credentials: true
 }));
 
